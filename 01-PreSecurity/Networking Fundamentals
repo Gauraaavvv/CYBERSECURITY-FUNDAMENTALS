@@ -1,0 +1,265 @@
+# Networking Basics
+
+Networking refers to the process of connecting computers and devices so they can communicate with each other and exchange data.
+
+Almost every cybersecurity attack happens through networks, which makes networking knowledge essential for security professionals.
+
+---
+
+# Why Networking is Important in Cybersecurity
+
+Understanding networking helps security professionals:
+
+* Identify attack surfaces
+* Analyze network traffic
+* Detect suspicious behavior
+* Exploit vulnerable systems
+
+Examples of attacks involving networking include:
+
+• Man-in-the-Middle attacks
+• DNS attacks
+• Network scanning
+• Web application attacks
+
+Without understanding networking, it becomes difficult to understand how attackers interact with systems.
+
+---
+
+# What is a Network
+
+A network is a group of devices connected together to share information.
+
+Examples of devices in a network include:
+
+* Computers
+* Servers
+* Routers
+* Switches
+* Mobile devices
+
+Example simple network:
+
+```
+
+Computer → Router → Internet → Server
+
+```
+
+This allows your computer to communicate with remote systems.
+
+---
+
+# Types of Networks
+
+Networks can be categorized based on their size and geographical coverage.
+
+---
+
+## LAN (Local Area Network)
+
+A LAN connects devices within a limited area.
+
+Examples include:
+
+* Home networks
+* Office networks
+* School networks
+
+Example:
+
+```
+
+Laptop → WiFi Router → Printer
+
+```
+
+---
+
+## WAN (Wide Area Network)
+
+A WAN connects multiple networks across large distances.
+
+The **Internet** is the largest WAN.
+
+Example:
+
+```
+
+Home Network → ISP → Internet → Web Server
+
+```
+
+---
+
+# Key Network Components
+
+Several devices are used to build networks.
+
+---
+
+## Router
+
+A router connects different networks together and directs traffic between them.
+
+Example:
+
+```
+
+Your Home Network → Internet
+
+```
+
+The router determines where data should be sent.
+
+---
+
+## Switch
+
+A switch connects multiple devices within the same network.
+
+Example:
+
+```
+
+Computer
+     ↓
+Switch
+     ↓
+Printer
+```
+
+---
+
+## Firewall
+
+A firewall monitors and controls incoming and outgoing network traffic.
+
+It acts as a **security barrier** between trusted and untrusted networks.
+
+Example:
+
+```
+
+Internet
+   ↓
+Firewall
+   ↓
+Internal Network
+```
+
+---
+
+# IP Address
+
+An IP address is a unique identifier assigned to devices on a network.
+
+Example:
+
+```
+
+192.168.1.10
+```
+
+This allows devices to locate and communicate with each other.
+
+Two main types of IP addresses exist:
+
+• IPv4
+• IPv6
+
+---
+
+# Public vs Private IP
+
+Public IP addresses are used on the internet.
+
+Example:
+
+```
+
+8.8.8.8
+```
+
+Private IP addresses are used inside local networks.
+
+Examples:
+
+```
+
+192.168.x.x
+10.x.x.x
+172.16.x.x
+```
+
+Private addresses cannot be accessed directly from the internet.
+
+---
+
+# How Devices Communicate
+
+When you open a website:
+
+```
+
+https://example.com
+
+```
+
+Your computer performs several steps:
+
+```
+
+1. Resolve domain name → DNS
+2. Establish connection → TCP
+3. Send request → HTTP
+4. Receive response → Web server
+```
+
+Understanding this process is crucial for web security.
+
+---
+
+# Networking in Real Attacks
+
+Attackers often interact with networks using tools like:
+
+```
+
+nmap
+netcat
+wireshark
+```
+
+Example network scan:
+
+```
+
+nmap 192.168.1.1
+```
+
+This command scans the network to identify active systems and open ports.
+
+---
+
+# Key Takeaways
+
+Networking allows devices to communicate and exchange data.
+
+Key concepts include:
+
+```
+
+Networks
+IP addresses
+Routers
+Switches
+Firewalls
+```
+
+Understanding networking is the foundation for advanced topics like:
+
+* Network scanning
+* Packet analysis
+* Web exploitation
+* Penetration testing
